@@ -1,0 +1,732 @@
+
+@media (min-width: 320px) and (max-width: 1023px) {
+    .stream-block-inner1{line-height:35px; font-size: 23px;}
+    .stream-block-inner1 span {
+    font-size: 33px;
+}
+    .range-slider{padding-top: 1.5em; padding-bottom: 40px;}
+    .range-slider .output, .range-slider output{top: -6px; font-size: 25px;}
+    .range-slider .track {
+  bottom: 52px;
+    }
+}
+
+
+
+
+@media  only screen and (min-width:1600px){
+  .container-fluid{
+    max-width:1570px;
+}  
+}
+
+/*----style for responsive design----*/
+@media (min-width: 1100px) and (max-width: 1700px) {
+    .sign-up{background-size: 47%;} 
+
+}
+@media (min-width: 991px) and (max-width: 1700px) {
+    .testimonial {
+    padding: 120px 70px 28px;
+    background: url(../images/testimonials-bg.png) 56% 85% no-repeat;
+    background-size: 110%;
+}
+
+
+.container-fluid {
+    max-width: 86%;
+}
+    .inner-heading h3{font-size:20px;}
+
+}
+
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .amp-site-nav ul li {
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0 10px;
+    }
+
+}
+
+@media (max-width: 1439px) {
+    .sign-up-block {
+    font-size: 22px;
+}
+
+    .benefitsinner{
+        max-width: 250px;
+        margin: 0 auto;
+        max-height: 250px;
+    }
+    section#benefits h2 {
+        position: relative;
+        top: 0;
+        padding-bottom: 35px;
+    }
+    .benefits-icon {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 102px;
+        margin: 0 auto;
+    }
+    .benefitsinner {
+        min-height: 250px;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 23px;
+        text-align: center;
+        padding: 25px;
+    }
+    .testimonial-block{padding: 30px 15px 31px;
+    min-height: 270px;}
+}
+
+
+@media (max-width: 1169px) {
+    .testimonial-block{padding: 30px 15px 31px;
+    min-height: 310px;} 
+    .sign-up {
+    background-size: 70%;
+}
+    .site-footer ul li{font-size: 17px;}
+    .site-footer h5, .site-footer span {
+        font-size: 28px;
+    }
+    .faq-block-inner{padding: 30px 45px;}
+    .sign-up-block{top:113px;}
+    .testimonial {
+        padding: 110px 0 0;
+    }
+    /*----.benefits-block{padding: 40px 0 20px;}----*/
+    section#benefits h2 {
+        position: relative;
+        top: 0;
+        padding-bottom: 35px;
+    }
+    .benefits-icon {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 102px;
+        margin: 0 auto;
+    }
+    .benefitsinner {
+        min-height: 250px;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 23px;
+        text-align: center;
+        padding: 25px;
+    }
+    /*----.how-it-works-block {
+        padding: 150px 0 100px;
+    }----*/
+    .how-it-works-blockinner h3{padding-right: 25px;}
+    .inner-heading h1{font-size: 58.522px;}
+    .step1:after{
+        width: 311px;
+    height: 125px;
+    background-size: 100%;
+    bottom: -120px;
+    left: 109px;
+    }
+    .step2:after{
+        width: 312px;
+    height: 109px;
+    top: -130px;
+    left: 108px;
+    background-size: 100%;
+    }
+    .how-it-works:after{
+        right: 20px;
+    bottom: 10px;
+        background-size: 100%;
+        width: 217px;
+        height: 164px;
+    }
+    .how-it-works-blockinner p{
+        font-size: 20px;
+        line-height: 26px;
+        padding-right:0;
+    }
+    .faqtopinner{width: 94%;}
+}
+
+@media (max-width: 991px) {
+.desktopmenu{
+    display: none;
+}
+.menu-btn {
+    display: block;
+    width: 30px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+}
+
+
+
+
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .main-logo{margin-left: 60px; max-width: 60px;min-width: inherit;}
+    .menu{position: absolute; left: 0; transform: inherit;}
+    .heroslider {
+        margin-top: 70px;
+    }
+
+    .amp-site-nav {
+        display: none;
+    }
+    header{
+        padding: 10px 0px;
+        position:fixed;
+        top:0;
+        background-color:#000;
+    }
+    .mobile-icon {
+        display: block;
+        max-width: 30px;
+        height: auto;
+        margin: 0px 0 0 15px;
+        cursor: pointer;
+    }
+    #leftsidebar {
+        padding: 20px 35px;
+        background-color: var(--color-primary);
+    }
+    #leftsidebar ul {
+        margin-top: 30px;
+    }
+    #leftsidebar ul li {
+        display: block;
+        font-size: 18px;
+        font-weight: 300;
+        margin: 15px 0;
+        text-transform: uppercase;
+    }
+    #leftsidebar ul li a {
+        color: var(--color-white);
+        text-decoration: none;
+        position: relative;
+    }
+    #leftsidebar ul li.active a {
+        padding-left: 25px;
+    }
+    #leftsidebar ul li.active a::after {
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 3px;
+        background-color: var(--color-white);
+        left: 0;
+        top: 10px;
+    }
+    #leftsidebar amp-img {
+        max-width: 80px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .logo {
+        max-width: 60px;
+        min-width: 60px;
+        padding: 0;
+        margin-left: 60px;
+    }
+    .login {
+        margin: 0px 15px 0 0;
+    }
+    .login a {
+        font-size: 15px;
+        padding: 7px 9px;
+    }
+    .login a::after {
+        top: -27px;
+        right: -28px;
+    }
+    .f-logo {
+
+    }
+    .f-col-1 ul {
+        text-align: left;
+    }
+    .f-col-1 p {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .follow-us{
+        text-align: left;
+    }
+    .f-col-4{
+        padding-left: 40px;
+    }
+    .contact-left{
+        padding: 30px;
+        padding-right: 80px;
+    }
+    .contact-right{
+        padding: 30px;
+        padding-left: 20px;
+    }
+    .contact-info p strong{
+        height: auto;
+    }
+
+}
+@media (max-width: 990px) {
+    .amp-start-header{
+        height: auto;
+    }
+    .inner-heading h1{font-size: 64.522px;}
+    .step2:after, .step1:after,.how-it-works:after{display:none;}
+    .sign-up{background-size:85%;}
+    .inner-heading h3{font-size:17px;}
+    .login .desktopmenu ul li{padding: 0 0 0 13px;}
+}
+
+@media (max-width: 767px) {
+    .stream-block-inner1:after {
+    height: 11px;
+    left: -9px;
+}
+.stream-block-inner1:before {
+    width: 10px;
+    left: -20px;
+    bottom:-10px;
+}
+    .faq-block-inner h2 {
+    margin-bottom: 35px;
+}
+  
+    .how-it-works-block {
+    padding: 40px 0 29px;
+    text-align:center;
+}
+
+    .bannerouter{padding-top: 40px;}
+    .sign-up{background-size:520px;}
+    .sign-up-block {
+    font-size: 21px;
+    line-height: 34px;
+}
+    .inner-heading h1{font-size: 64.522px; padding-top:0;}
+    .step2:after, .step1:after, .step3:after{display:none;}
+   
+    .benefits-block{padding: 95px 0 40px;}
+    .stream-block-inner{padding: 25px;}
+    .stream-block{padding: 40px 0 70px;}
+    .testimonial{padding: 0 0 75px;}
+    section#sign-up amp-img {
+    top: -173px;
+}
+    .sign-up-block{position: static; padding-top: 28px;     padding-bottom: 68px;}
+    .faq-block{padding: 40px 0 35px ;}
+    .faq-block-inner{padding: 80px 35px;}
+    .testtiout{padding: 95px 0 0;}
+    .q-block{
+        padding: 20px 30px 20px 49px; font-size: 20px; line-height: 28px;
+    }
+    .site-footer h5, .site-footer span{    font-size: 30px;}
+    .testimonial-img {
+        width: 72px;
+    }
+    .a-block{
+        padding: 20px 30px 20px 49px; font-size: 18px; line-height: 25px;}
+        section#benefits h2 {
+            position: relative;
+            top: 0;
+            text-align: center;
+            padding: 0 0 45px;
+        }
+        .benefitsinner {
+            min-height: inherit;
+            border-radius: 20px;
+            font-size: 6vw;
+            line-height: 9vw;
+            text-align: center;
+            padding: 45px 20px;
+            margin: 0 0 25px 0;
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .benefits-icon {
+            position: static;
+            width: 132px;
+            margin: 0 auto 25px;
+        }
+        .how-it-works{min-height:inherit;     padding: 25px;}
+        .how-it-works-blockinner{padding: 25px; margin: 0 0 15px;}
+        .how-it-works-block h2{font-size: 8vw; padding-left: 0;}
+        .video-block{position: static; margin-top:15px; height: auto; padding: 10px; }
+        .inner-heading h3{padding: 0 0 21px;}
+        .main-logo{margin-left: 60px; max-width: 60px;min-width: inherit;}
+
+        .menu{position: absolute; left: 0; transform: inherit;}
+        #main {
+            margin-top: 70px;
+        }
+
+        .amp-site-nav {
+            display: none;
+        }
+        .amp-start-header{
+            padding: 10px 0px;
+            position:fixed;
+            top:0;
+            background-color:var(--color-black);
+        }
+        .mobile-icon {
+            display: block;
+            max-width: 30px;
+            height: auto;
+            margin: 0px 0 0 15px;
+            cursor: pointer;
+        }
+        #leftsidebar {
+            padding: 20px 35px;
+            background-color: var(--color-primary);
+        }
+        #leftsidebar ul {
+        }
+        #leftsidebar ul li {
+            display: block;
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        #leftsidebar ul li a {
+            color: var(--color-white);
+            text-decoration: none;
+            position: relative;
+            font-weight:700;
+        }
+        #leftsidebar ul li a:hover{
+            color: #c5aee7;
+        }
+        #leftsidebar ul li.active a {
+            color: #c5aee7;
+        }
+       
+        #leftsidebar amp-img {
+            max-width: 80px;
+            height: auto;
+            margin: 0 auto;
+        }
+        .logo {
+            max-width: 60px;
+            min-width: 60px;
+            padding: 0;
+            margin-left: 60px;
+            margin-top: 0;
+        }
+        .inner-heading a{padding: 12px 28px; font-size: 18px;}
+        .login {
+            margin:0;
+            padding: 0;
+        }
+        .login a {
+            font-size: 15px;
+            padding: 5px 10px;
+        }
+        .login a i.fa {
+            font-size: 16px;
+        }
+        .btn-login,
+        .btn-dash{
+            background-position: 0px -5px
+        }
+        .footer-top {
+            padding: 40px 0 0;
+        }
+        .f-col-1 p {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        .f-col-2 ul,
+        .f-col-3 ul,
+        .f-col-4 ul {
+            margin-top: 20px;
+            padding-bottom: 20px;
+        }
+        .f-col-1 p {
+    display: none;
+}
+        .f-col-4 {
+            padding-left: 0;
+        }
+        .side-close {
+            position: absolute;
+            display: inline-block;
+            right: 10px;
+            color: var(--color-white);
+            font-size: 24px;
+            padding: 0 6px;
+            font-weight: 900;
+            top: 10px;
+            cursor: pointer;
+        }
+        .contact-left{
+            padding: 40px;
+        }
+        .contact-right{
+            padding: 40px;
+        }
+        .contact-right::before{
+            display: none;
+        }
+        .contact-right h3{
+            margin-top: 0px;
+        }
+        .testimonial-block, .testimonial-block1{
+            margin: 0 0 30px;
+        }
+        .testimonial-block1{top:0;}
+        .testimonial-block, .testimonial-block1{font-size:18px; line-height:27px; padding: 40px 30px 50px; min-height: inherit; margin-left:10px;}
+        .testimonial h2 {
+    margin-bottom: 35px;
+}
+.stream-block-inner h2{font-size: 29px;
+    line-height: 33px;}
+    .how-it-works-blockinner p {
+    padding: 0;
+}
+.a-block {
+
+    margin-bottom: 40px;
+}
+.signup-button{
+    padding: 14px 32px; font-size: 17px;
+}
+    }
+
+    @media (max-width: 575px) {
+        .inner-heading h3{font-size:19px;}
+
+        .sign-up-block {
+    font-size: 18px;
+    line-height: 34px;
+}
+        .sign-up {
+    background-size: 360px;
+}
+        .sign-up-block{padding-bottom:0;}
+        .benefits-block .d-flex{
+        display: block;
+    }
+        .login a {
+            font-size: 14px;
+            padding: 3px 10px;
+        }
+        .login a i.fa {
+            font-size: 16px;
+        }
+
+            /*.footer-top{
+                margin: 0px 15px;
+                }*/
+
+                .inner-heading h1{
+                   
+                    padding-top:0;
+                }
+                .contact-row{
+                    margin: 0px 15px;
+                    margin-top: 50px;
+                }
+                .contact-left h2{
+                    font-size: 38px;
+                }
+                .lightbox-inner {
+                    padding: 30px 20px;
+                    width: 90%;
+                }
+                .lightbox-inner .lightbox-title{
+                    font-size: 30px;
+                }
+                .lightbox-inner p{
+                    font-size: 16px;
+                    margin: 20px 0px;
+                }
+            }
+            @media (max-width: 480px) {
+                .contact-left h2{
+                    font-size: 24px;
+                }
+                .contact-right h3{
+                    font-size: 24px;
+                }
+                .contact-left{
+                    padding: 20px;
+                }
+                .contact-right{
+                    padding: 20px;
+                }
+                .lightbox-inner .lightbox-title{
+                    font-size: 24px;
+                }
+
+            }
+            @media (max-width: 375px){
+                .login a {
+                    font-size: 12px;
+                    padding: 6px 8px;
+                }
+
+            }
+            @media (min-width: 320px) and (max-width: 640px) {
+                .stream-block-inner1{font-size:16px; padding: 15px; line-height: 27px;}
+                .stream-block-inner1 span {
+    font-size: 29px;
+    padding-top: 7px;
+    display: block;
+}
+            }
+
+@media (min-width: 768px) and (max-width: 1600px) {
+    .video-block{right:0}
+
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .benefitsinnerbox{
+    width: 320px;
+    height: 320px;
+    background-size: 100%;
+    margin: 0 auto;
+    padding: 132px 25px 0 94px;
+    font-size: 22px;
+    line-height: 30px;
+    }
+    section#benefits h2{
+        padding: 35px 0 45px;
+    font-size: 8vw;
+    }
+    .benefits-block .d-flex {
+    display: block !important;
+}
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+    .benefitsinnerbox{
+        background: url(../images/benefitsroung.png) left top no-repeat;
+    width: 448px;
+    height: 448px;
+    align-items: center;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 190px 25px 0 115px;
+    line-height: 36px;
+    margin: 0 auto;
+    }
+    section#benefits h2{
+     padding: 35px 0 45px;
+    }
+    .benefits-block .d-flex {
+    display: block !important;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .benefitsinnerbox{
+        width: 320px;
+    height: 320px;
+    background-size: 100%;
+    margin: 0 auto;
+    padding: 11% 25px 0 8%;
+    font-size: 2vw;
+    line-height: 1.3;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1159px) {
+    .benefitsinnerbox{
+        width: 320px;
+    height: 320px;
+    background-size: 100%;
+    margin: 0 auto;
+    padding: 11% 25px 0 8%;
+    font-size: 2vw;
+    line-height: 1.3;
+    }
+
+}
+
+@media (min-width: 1160px) and (max-width: 1400px) {
+    .benefitsinnerbox{
+        width: 320px;
+    height: 320px;
+    background-size: 298px;
+    margin: 0 auto;
+    padding: 100px 42px 0 87px;
+    font-size: 22px;
+    line-height: 1.3;
+    }
+
+}
+
+@media (min-width: 1401px) and (max-width: 1700px) {
+    .benefitsinnerbox{
+        width: 370px;
+    height: 370px;
+    background-size: 100%;
+    margin: 0 auto;
+    padding: 135px 42px 0 107px;
+    font-size: 25px;
+    line-height: 1.3;
+    }
+
+}
+@media (max-width: 375px){
+.login a {
+    font-size: 12px;
+    padding: 6px 8px;
+    line-height: 16px;
+}
+}
+
+@media (max-width: 990px){
+    header {
+        height: auto;
+    }
+}
+
+@media (max-width: 767px){
+    header {
+        padding: 10px 0px;
+        position: fixed;
+        top: 0;
+        background-color: #000;
+    }
+    .heroslider {
+        padding-top: 40px;
+        margin-top: 78px;
+    }
+    .search-wrap {
+        display: block;
+    }
+    .search-wrap input {
+        width: 91%;
+        margin: 0 0 10px;
+    }
+    .faqtop {
+        padding-top: 150px;
+        padding-bottom: 95px;
+    }
+    .terscondition .inner-heading h1{
+        padding: 24px 0 0 0;
+    font-size: 35px;
+    }
+}
+
+
+
+	
